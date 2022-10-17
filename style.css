@@ -1,1 +1,50 @@
-/* This the style sheet for the page.
+/* This the style sheet for the page.*/
+
+* {
+    font-size:large
+}
+
+li {
+    color: aliceblue
+}
+
+li + li {
+    text-decoration: dotted;
+}
+
+p {
+    color: aliceblue
+}
+
+summary {
+    color: hsl(240, 100, 80);
+    position: static
+}
+
+.question {
+    color: aliceblue;
+    text-align: center;
+    text-decoration: solid
+}
+
+#wlh {
+    display: block;
+    border-style: dashed;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-radius: 3mm;
+    padding: 1em;
+    margin: 1rem;
+    width: 50%;
+    position: absolute
+}
+
+section > video {
+    display: inline;
+    margin-bottom: 11px;
+    padding-right: 2em;
+}
+
+#random {
+    display: flex;
+}
